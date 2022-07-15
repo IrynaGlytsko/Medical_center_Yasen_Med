@@ -1,6 +1,6 @@
 body{
     font-family: 'Lora', serif;
-    max-width: 1350px;
+    max-width: 1700px;
     font-size: 15px;
     color: #222;
     margin: 0 auto;
@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     padding: 1em;
     background-color: #222;
+}
+.header__height{
+    height: 55px;
+}
+.header__height__phone{
+    line-height: 1.3;
 }
 .phone{
     display: flex;
@@ -96,6 +102,14 @@ a:active {
     display: flex;
     justify-content: space-between;
 }
+.header__bottom__height{
+    width: 100%;
+    height: 105.2px;
+    padding: 0.95em;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
 .logo{
     width: 100%;
 }
@@ -104,6 +118,9 @@ a:active {
     justify-content: space-between;
     align-self: center;
     width: 100%;
+}
+.nav__height{
+    line-height: 1.2;
 }
 .nav__link{
     padding: 1.5em;
@@ -115,6 +132,9 @@ a:active {
     transition: color .2s linear;
     border-right: 1px solid #222;
 }
+.height_nav{
+    height: 75.2px;
+}
 .nav__link:last-child{
     border-right: none;
 }
@@ -123,7 +143,7 @@ a:active {
 .intro{
     width: 100%;
     overflow: hidden;
-    margin: 0;
+    margin-top: 22px;
     background: #fff;
     height: 70vh;
     display: flex;
@@ -204,11 +224,14 @@ a:active {
 .section__text{
     padding: 1em;
     color: #999;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 500;
 }
 
 /* About */
+.about__us{
+    margin-bottom: -20px;
+}
 .section__about__us{
     width: 100%;
     display: flex;
@@ -223,6 +246,7 @@ a:active {
 .about__content{
     width: 100%;
     text-align: center;
+    align-self: center;
 }
 .about__title{
     font-size: 2.3rem;
@@ -302,14 +326,17 @@ input[name="r"]{
 }*/
 
 
-
 /* Reviews BOOTSTRAP */
 
+.reviews__bootstrap{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgb(208, 251, 245, 0.3);
+}
 .accordion-item{
     margin: 10px;
 }
 .accordion-button{
-    background-color: #d0fbf5;
     color: #000;
     font-weight: 900;
 }
@@ -318,7 +345,6 @@ input[name="r"]{
 }
 
 /* Advantage */
-
 .cards__advantage{
     display: flex;
     justify-content: space-between;
@@ -350,15 +376,16 @@ input[name="r"]{
 
 /* Card */
 .card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 5em;
-    padding: 0 2em;
+    display: inline-block;
+    margin-top: 1em;
+    padding: 2em;
+    border: none;
 }
 .card__item{
-    width: 32%;
-    padding: 0.5em;
+    display: inline-block;
+    width: 31%;
+    padding: 2em;
+    margin: 0.5em;
     text-align: center;
     border-radius: 5px;
     box-shadow: 5px 5px 20px #222;
@@ -374,9 +401,10 @@ input[name="r"]{
     text-transform: uppercase;
 }
 .card__text{
+    margin-top: 10px;
     color: #222;
     font-weight: 500;
-    font-size: 0.93rem;
+    font-size: 0.95rem;
 }
 
 /* Services */
@@ -397,7 +425,7 @@ input[name="r"]{
     display: flex;
     margin-bottom: 5em;
     width: 50%;
-    padding: 0 45px 0 130px;
+    padding: 0 25px 0 130px;
 }
 .services__img{
     margin-right: 2em;
@@ -420,6 +448,53 @@ input[name="r"]{
     text-shadow: 1px 1px 1px #222;
     font-weight: 700;
     font-size: 1em;
+}
+
+/* Services__services */
+
+.cards__header{
+    text-align: center;
+    margin-top: 50px;
+}
+.card-body{
+    text-align: center;
+}
+.cards__header__title{
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.cards__header__text{
+    padding: 0 20px;
+    color: #000;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.card-text{
+    font-family: 'Lora', serif;
+}
+.btn-primary{
+    width: 80%;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #72cec2;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #222;
+    transition: 0.2s linear;
+}
+.services__cards{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Doctors */
@@ -453,10 +528,12 @@ input[name="r"]{
 }
 .doctors__subtitle{
     font-size: 1.2em;
+    margin-top: 10px;
     color: #222;
     font-style: italic;
 }
 .doctors__text{
+    margin-top: 15px;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -635,6 +712,10 @@ input[name="r"]{
     border-radius: 5px;
     text-indent: 14px;
 }
+.up{
+    line-height: 1.2;
+    color: #222!important;
+}
 .scrollup:hover {
     background-color: #eee; 
     color: #222;
@@ -642,7 +723,6 @@ input[name="r"]{
 }
 
 /* Contacts */
-
 .bg__contacts{
     padding: 1em;
     background-color: #eee;
@@ -650,6 +730,7 @@ input[name="r"]{
 .contacts__info{
     margin-top: 50px;
     display: flex;
+    justify-content: center;
 }
 .cont__img img{
     width: 850px;
@@ -684,5 +765,5 @@ li{
     transition: 0.2s linear;
 }
 .iframe{
-    margin: 50px auto -15px;
+    text-align: center;
 }
