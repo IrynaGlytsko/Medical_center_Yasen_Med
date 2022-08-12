@@ -21,39 +21,105 @@
 
     <!-- Header -->
     <header class="header">
-
         <div class="header__top header__height">
-            <div class="phone header__height__phone">
-                <span class="a1">А1</span>
-                <a href="tel:+375296975700" class="a1_phone">+375 (29) 697-57-00</a>
-
-                <span class="mts">МТС</span>
-                <a href="tel:+375298483388" class="mts_phone">+375 (29) 848-33-88</a>
-
-                <i class="fas fa-phone-alt"></i>
-                <a href="tel:+375225700077" class="city_phone"> +375 (225) 7-000-77</a>
-
-                <i class="fas fa-map-marker-alt"></i>
-                <a href="https://goo.gl/maps/BBta9sPV344u8Y6j7" target="_blank" class="address">г.Бобруйск,
-                    пер.Революционный, д.3а</a>
-
-                <span class="working">ПН-ПТ 08:00-19:00, СБ 08:00-12:00, ВС - выходной</span>
-            </div>
+          <div class="phone header__height__phone">
+            <span class="a1">А1</span>
+            <a href="tel:+375296975700" class="a1_phone">+375 (29) 697-57-00</a>
+  
+            <span class="mts">МТС</span>
+            <a href="tel:+375298483388" class="mts_phone">+375 (29) 848-33-88</a>
+  
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+375225700077" class="city_phone">
+              +375 (225) 7-000-77</a
+            >
+  
+            <i class="fas fa-map-marker-alt"></i>
+            <a
+              href="https://goo.gl/maps/BBta9sPV344u8Y6j7"
+              target="_blank"
+              class="address"
+              >г.Бобруйск, пер.Революционный, д.3а</a
+            >
+  
+            <span class="working"
+              >ПН-ПТ 08:00-19:00, СБ 08:00-12:00, ВС - выходной</span
+            >
+          </div>
         </div>
-
+  
         <div class="header__bottom header__bottom__height">
-            <div class="logo"><img src="img/logo-mini.png" alt="Логотип ЯСЕНЬ МЕД"></div>
-
-            <nav class="nav nav__height" id="nav">
-                <a href="index.html" class="nav__link height_nav">Главная</a>
-                <a href="about.html" class="nav__link height_nav">О нас</a>
-                <a href="services.html" class="nav__link height_nav">Услуги</a>
-                <a href="doctors.html" class="nav__link height_nav">Врачи</a>
-                <a href="contacts.html" class="nav__link height_nav">Контакты</a>
-            </nav>
+          <div class="logo">
+            <img src="img/logo-mini.png" alt="Логотип ЯСЕНЬ МЕД" />
+          </div>
+  
+          <nav class="nav nav__height" id="nav">
+            <a href="index.html" class="nav__link height_nav">Главная</a>
+            <a href="about.html" class="nav__link height_nav">О нас</a>
+            <a href="services.html" class="nav__link height_nav">Услуги</a>
+            <a href="doctors.html" class="nav__link height_nav">Врачи</a>
+            <a href="contacts.html" class="nav__link height_nav">Контакты</a>
+          </nav>
         </div>
-
-    </header> <!-- /.header -->
+  
+        <!-- Burger navigation -->
+        <div class="burger__nav">
+          <div class="burger__logo">
+            <img src="img/logo-mini.png" alt="Логотип ЯСЕНЬ МЕД" />
+          </div>
+  
+          <nav class="nav nav__height navig">
+            <ul class="header__list">
+              <li class="header__burger__item burger__link">
+                <span class="a1">А1</span>
+                <a href="tel:+375296975700" class="a1_phone fsb"
+                  >+375 (29) 697-57-00</a
+                >
+              </li>
+              <li class="header__burger__item burger__link">
+                <span class="mts">МТС</span>
+                <a href="tel:+375298483388" class="mts_phone fsb"
+                  >+375 (29) 848-33-88</a
+                >
+              </li>
+              <li class="header__burger__item burger__link">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+375225700077" class="city_phone fsb">
+                  +375 (225) 7-000-77</a
+                >
+              </li>
+              <li class="header__burger__item burger__link">
+                <a href="index.html" class="nav__link height_nav">Главная</a>
+              </li>
+              <li class="header__burger__item burger__link">
+                <a href="about.html" class="nav__link height_nav">О нас</a>
+              </li>
+              <li class="header__burger__item burger__link">
+                <a href="services.html" class="nav__link height_nav">Услуги</a>
+              </li>
+              <li class="header__burger__item burger__link">
+                <a href="doctors.html" class="nav__link height_nav">Врачи</a>
+              </li>
+              <li class="header__burger__item burger__link">
+                <a href="contacts.html" class="nav__link height_nav">Контакты</a>
+              </li>
+            </ul>
+  
+            <div class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
+            </div>
+          </nav>
+  
+          <div class="header__burger burger">
+            <span class="burger__line burger__line_first"></span>
+            <span class="burger__line burger__line_second"></span>
+            <span class="burger__line burger__line_third"></span>
+          </div>
+        </div>
+        <!-- /.burger navigation -->
+      </header>
+      <!-- /.header -->
 
     <!-- services -->
     <section class="services__services">
@@ -62,7 +128,7 @@
                 <h3 class="section__suptitle">В Медицинском центре широкий выбор различных услуг</h3>
                 <h2 class="section__title">Наши услуги</h2>
                 <div class="section__text">
-                    <p>К услугам пациентов Медицинского центра «Ясень Мед » — высококвалифицированное ультразвуковое исследование органов брюшной полости, мочеполовой системы, щитовидной железы, а также консультации врачей-специалистов и сдача анализов
+                    <p>К услугам пациентов Медицинского центра «ЯСЕНЬ МЕД» предоставляется - высококвалифицированное ультразвуковое исследование органов брюшной полости, мочеполовой системы, щитовидной железы, а также консультации врачей-специалистов и сдача анализов
                     </p>
                 </div>
             </div>
@@ -75,7 +141,7 @@
             <div class="services__cards">
 
                 <div class="card" style="width: 27rem;">
-                    <img src="img/ultrasound.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_8_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">УЗИ органов брюшной полости</h5>
                       <p class="card-text">Диагностика заболеваний печени, селезенки, желчного пузыря и поджелудочной железы, воспаление червеобразного отростка слепой кишки (аппендицит), желчнокаменная болезнь (холелитиаз) и тд.</p>
@@ -84,7 +150,7 @@
                 </div>
     
                 <div class="card" style="width: 27rem;">
-                    <img src="img/ultrasound.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_8_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">УЗИ щитовидной железы</h5>
                       <p class="card-text">УЗИ диагностика позволяет оценить размеры, структуру щитовидной железы, выявить узлы, кисты и другие патологические образования. Проведение ультразвукового исследования не требует от пациента никакой специальной подготовки и проводится в любой день</p>
@@ -93,7 +159,7 @@
                 </div>
     
                 <div class="card" style="width: 27rem;">
-                    <img src="img/ultrasound.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_8_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">УЗИ молочной железы</h5>
                       <p class="card-text">Ультразвуковая маммография является одним из важнейших этапов профилактики таких заболеваний, как фиброаденома молочной железы, мастопатия и рак груди. Рекомендуется проводить исследование не менее одного раза в год</p>
@@ -111,7 +177,7 @@
             <div class="services__cards">
 
                 <div class="card" style="width: 23rem;">
-                    <img src="img/gynecologist.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_7_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">Гинеколог</h5>
                       <p class="card-text">Прием врачей по вопросам невынашивания беременности, бесплодию, подбору средств контрацепции и методов, позволяющих сохранить здоровье и энергичность в менопаузальный период, специализированные процедуры такие как кольпоскопия, УЗИ, анализ крови, мазки на флору и другие виды работ</p>
@@ -120,7 +186,7 @@
                 </div>
     
                 <div class="card" style="width: 23rem;">
-                    <img src="img/brain.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_7_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">Детский невролог</h5>
                       <p class="card-text">Детский врач невролог специализируется на диагностике и лечении заболеваний еще не окрепшей десткой нервной системы. Консультация по заболеваниям еще на ранней стадии</p>
@@ -129,10 +195,10 @@
                 </div>
     
                 <div class="card" style="width: 23rem;">
-                    <img src="img/urologist.png" class="card-img-top" alt="Картинка УЗИ аппарата">
+                    <img src="img/chek/chek_7_200.png" class="card-img-top" alt="Картинка УЗИ аппарата">
                     <div class="card-body">
                       <h5 class="card-title">Уролог</h5>
-                      <p class="card-text">В Медицинском центре "Ясень Мед" вы можете получить помощь профессионала-уролога при мочекаменной болезни, аденоме предстательной железы, простатите. Сделать УЗИ мочеполовой системы. Нельзя заниматься самолечением, так как в большинстве случаев это может привести к непоправимым последствиям</p>
+                      <p class="card-text">В Медицинском центре "ЯСЕНЬ МЕД" вы можете получить помощь профессионала-уролога при мочекаменной болезни, аденоме предстательной железы, простатите. Сделать УЗИ мочеполовой системы. Нельзя заниматься самолечением, так как в большинстве случаев это может привести к непоправимым последствиям</p>
                       <a href="#" class="btn btn-primary">Подробнее...</a>
                     </div>
                 </div>
@@ -141,17 +207,17 @@
 
             <div class="cards__header">
                 <h4 class="cards__header__title">Лабораторная диагностика</h4>
-                <div class="cards__header__text">Медицинский центр "Ясень мед" предлагает следующие виды лабораторной диагностики:                  анализ крови биохимический,
-                    лабораторные исследования методом (ИФА):
+                <div class="cards__header__text">Медицинский центр "ЯСЕНЬ МЕД" предлагает следующие виды лабораторной диагностики:<br><b>&#10004; анализ крови биохимический,<br>
+                    &#10004; лабораторные исследования методом (ИФА):
                     определение гормонов,
                     определение антител к вирусным и бактериальным антигенам,
-                    определение канцеромаркеров.
-                    Лабораторные исследования методом (ПЦР) - определение возбудителей инфекционных и паразитарных заболеваний.
-                    Общеклинические исследования:
+                    определение канцеромаркеров. <br>
+                    &#10004; Лабораторные исследования методом (ПЦР) - определение возбудителей инфекционных и паразитарных заболеваний. <br>
+                    &#10004; Общеклинические исследования:
                     мазок на флору,
                     спераграмма,
                     цитологическое исследование,
-                    GENITAL тест (определение чувствительности урогенитальных микроорганизмов к антибиотикам)</div>
+                    GENITAL тест (определение чувствительности урогенитальных микроорганизмов к антибиотикам)</b></div>
             </div>
 
             <div class="services__cards">
