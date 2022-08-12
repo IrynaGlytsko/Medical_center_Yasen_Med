@@ -13,6 +13,21 @@ function clearActiveClasses(){
     })
 }
 
+/* Бургер-меню */
+
+(function () {
+    let burgerItem = document.querySelector('.burger');
+    let menu = document.querySelector('.navig');
+    let menuCloseItem = document.querySelector('.header__nav-close');
+
+    burgerItem.addEventListener('click', () => {
+        menu.classList.add('navig_active');
+    });
+    menuCloseItem.addEventListener('click', () => {
+        menu.classList.remove('navig_active');
+    });
+}());
+
 
 /* Кнопка прокрутки наверх */
 
@@ -32,6 +47,4 @@ $(document).ready(function(){
     });
 });
 
-
-/* Слайдер на странице О НАС */
 
