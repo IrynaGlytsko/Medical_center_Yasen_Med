@@ -89,9 +89,6 @@ h1, h2, h3, h4, h5, h6{
     align-self: center;
     font-size: 0.9rem;
 }
-a:link {
-    color: #eee;
-}
 a:hover {
     color: #72cec2;
 }
@@ -452,17 +449,7 @@ a:active {
 .card-text{
     font-family: 'Lora', serif;
 }
-.btn-primary{
-    width: 80%;
-    padding: 10px 0;
-    color: #fff;
-    background-color: #72cec2;
-    border: none;
-}
-.btn-primary:hover{
-    background-color: #222;
-    transition: 0.2s linear;
-}
+
 .services__cards{
     display: flex;
     justify-content: space-evenly;
@@ -878,6 +865,45 @@ li{
         font-size: 1.1em;
         text-align: center;
     }
+    .section__about__us{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .img__about__us img{
+        margin-bottom: 40px;
+        width: 70%;
+        text-align: center;
+    }
+    .about__text{
+        text-align: center;
+    }
+    .cards__advantage{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advantage__item{
+        width: 70%;
+    }
+    .advantage__title{
+        font-size: 25px;
+    }
+    .advantage__text{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .doctors__section__item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .doctors__section__img{
+        align-self: center;
+    }
+    .contacts__info{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -967,6 +993,12 @@ li{
         width: 50%;
         font-size: 20px;
     }
+    .doctors__section__img{
+        align-self: center;
+    }
+    .doctors__section__content{
+        width: 100%;
+    }
 }
 
 @media (max-width: 950px) {
@@ -1046,6 +1078,15 @@ li{
    .nav__link{
     font-size: 10px;
    }
+   .section__suptitle{
+    font-size: 25px;
+   }
+   .services__cards{
+    flex-wrap: wrap;
+   }
+   .doctors__section__inner{
+    flex-wrap: wrap;
+   }
 }
 
 @media (max-width: 770px) {
@@ -1116,6 +1157,10 @@ li{
     .scrollup{
         display: none;
     }
+    .doctors__section__img img{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 510px) {
@@ -1149,6 +1194,9 @@ li{
     h3{
         height: 75px;
     }
+    .advantage__title{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1161,6 +1209,9 @@ li{
     }
     .slide h3{
         font-size: 13px;
+    }
+    .section__suptitle{
+        margin-bottom: 30px;
     }
 }
 
@@ -1177,5 +1228,11 @@ li{
     .header__nav-close-line{
         height: 1.2px;
         left: 150%;
+    }
+    .advantage__title{
+        font-size: 14px;
+    }
+    .advantage__text{
+        font-size: 13px;
     }
 }
